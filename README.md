@@ -1,11 +1,11 @@
 # Banned function scaner
 
-This tools scans a directory recursively for banned functions in C/C++ code.
+As part of SDL task [T196](https://sdp-prod.intel.com/library/tasks/T196/) - we need to map and clean the usage of Banned functions. 
+This tools scans a directory recursively for banned functions in C/C++ code. It can be used by both development and validation teams and can be a base for a gated checkin script.
 
 README for check_banned_C_functions.py
 
 C/C++ code is considered all files that ends with: .c, .cc, .cpp, .C, .cxx, .c++, .h, .hh, .hpp, .H, .hxx, .h++
-
 
 Usage:  python check_banned_C_functions.py <root_dir> <banned> [-xf excluded_files] [-xff xf_file] [-xd excluded_dirs] [-o output]
 
@@ -24,12 +24,12 @@ Examples:
 2. python check_banned_C_functions.py C:\Users\user\Desktop\test banned_list.txt -xf file1.c,file1.h,file2*.c -xd debug -o report.txt
 3. python check_banned_C_functions.py C:\Users\user\Desktop\test banned_list.txt -xf dir1/file.c - forbidden! you cannot add '/' to exclude file from specific folder
 
-Added three input files - Full banned function list, Min banned function list and a list of sensitive functions to be targeted during security code review.
+README for the available input files - Full banned function list, Min banned function list and a list of sensitive functions to be targeted during security code review.
 
-Conntact Dan Horovitz (dan.horovitz@itnel.com) for any aditional help and sugestions.
-CCG | SSI - Security and Strategy Initiatives 
-Mobile: +972-54-788 4660
-
+Conntact: 
+    Dan Horovitz (dan.horovitz@itnel.com) for any aditional help and sugestions.
+    CCG | SSI - Security and Strategy Initiatives 
+    
 Planned backlog:
 1) Keep updateing the lists.
 2) Add support for C#
