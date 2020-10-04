@@ -23,3 +23,15 @@ Examples:
 1. python check_banned_C_functions.py C:\Users\user\Desktop\test banned_list.txt
 2. python check_banned_C_functions.py C:\Users\user\Desktop\test banned_list.txt -xf file1.c,file1.h,file2*.c -xd debug -o report.txt
 3. python check_banned_C_functions.py C:\Users\user\Desktop\test banned_list.txt -xf dir1/file.c - forbidden! you cannot add '/' to exclude file from specific folder
+
+Added three input files - Full banned function list, Min banned function list and a list of sensitive functions to be targeted during security code review.
+
+Conntact Dan Horovitz (dan.horovitz@itnel.com) for any aditional help and sugestions.
+CCG | SSI - Security and Strategy Initiatives 
+Mobile: +972-54-788 4660
+
+Planned backlog:
+1) Keep updateing the lists.
+2) Add support for C#
+3) Add support for Java
+4) Add support for JS 
