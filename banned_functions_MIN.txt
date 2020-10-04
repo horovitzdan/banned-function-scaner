@@ -1,0 +1,1 @@
+strcpy,strncpy,strcat,strncat,strlen,strnlen,sprintf,memmove,strtok,gets,sprintf,snprintf,vsnprintf,scanf,alloca,memcpy
