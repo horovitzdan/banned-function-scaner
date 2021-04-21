@@ -1,4 +1,4 @@
-#** Banned function scaner**
+** Banned function scaner**
 
 As part of SDL task **[T196]**(https://sdp-prod.intel.com/library/tasks/T196/) - we need to map and clean the usage of Banned functions. 
 This tools scans a directory recursively for banned functions in C/C++ code. It can be used by both development and validation teams and can be a base for a gated checkin script.
