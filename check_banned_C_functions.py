@@ -35,7 +35,7 @@ def get_files(root_dir, excluded_dirs, excluded_files, xf_file):
 
 
 def get_banned_functions(file):
-    with open(file, "r") as f:
+    with open(file, "r", errors='ignore') as f:
         banned_functions = f.read().split(",")
     for i in range(len(banned_functions)):
         banned_functions[i] = banned_functions[i].strip()
