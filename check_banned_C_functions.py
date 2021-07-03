@@ -46,7 +46,7 @@ def scan_files(code_files, banned_functions, output):
     for file in code_files:
         # read all lines
         data = []
-        with open(file, "r") as f:
+        with open(file, "r", errors='ignore') as f:
             data = f.readlines()
         i = 0
         while i < len(data):
