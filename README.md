@@ -27,8 +27,7 @@ Examples:
 README for the available input files - Full banned function list, Min banned function list and a list of sensitive functions to be targeted during security code review.
 
 Conntact: 
-    Dan Horovitz (dan.horovitz@intel.com) for any aditional help and sugestions.
-    CCG | SSI - Security and Strategy Initiatives 
+    Dan Horovitz (dan.horovitz@intel.com) for any aditional help and sugestions. 
     
 Planned backlog:
 1) Keep updateing the lists.
